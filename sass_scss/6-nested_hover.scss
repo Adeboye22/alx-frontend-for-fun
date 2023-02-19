@@ -1,4 +1,14 @@
-/* Nested hover
+/* Assign: Text color #FF0000 to button tags. When the user hovers over button tags, text color should change to #00FF00 */
+
+$red: #FF0000;
+$green: #00FF00;
+
+button {
+	color: $red;
+	&:hover {
+		color: $green;
+	}
+}/* Nested hover
 change button color on hover*/
 
 button {
@@ -8,3 +18,4 @@ button {
         color: #00FF00;
     }
 }
+
